@@ -1,20 +1,28 @@
-import React, { useContext } from "react";
+import React, { useState,useContext } from "react";
 import { DatabaseContext } from "./Database";
+import Score from './Score'
 
 const ItemContainer = () => {
-  const [Items, setItems] = useContext(DatabaseContext);
-
+  const [Items] = useContext(DatabaseContext);
+  const [count, setCount] = useState(0)
   const thisOne = (e) => {
     Items.forEach((item) => {
       if (item.name === e.target.name) {
-        setItems( item.clicked );
-        console.log(item);
+          if(item.clicked === false){
+        item.clicked=true
+        setCount(count + 1)
+           } else {
+            alert ('you lose! you scored '+ count + ' points')
+            Items.forEach(item => item.clicked = false)
+           };
       }
     });
   };
 
   return (
-    <div className="container">
+    <div >
+        <Score count={count}/>
+        <div className="container">
       {Items.map((item) => {
         return (
           <div key={item.key}>
@@ -23,6 +31,8 @@ const ItemContainer = () => {
           </div>
         );
       })}
+    
+    </div>
     </div>
   );
 };
