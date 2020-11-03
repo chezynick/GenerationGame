@@ -28,7 +28,7 @@ return (
     <div className="container">
     {Items.map((item) => {
       return (
-        <div key={item.key}>
+        <div key={item.key} className='card' >
           <img src={item.src} alt="pic" name={item.name} onClick={thisOne} />
           <div>{item.name}</div>
         </div>
