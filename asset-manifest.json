@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.939bfb6b.chunk.css",
-    "main.js": "/static/js/main.f9940594.chunk.js",
-    "main.js.map": "/static/js/main.f9940594.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7e482fe1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7e482fe1.js.map",
-    "static/js/2.5bd12c96.chunk.js": "/static/js/2.5bd12c96.chunk.js",
-    "static/js/2.5bd12c96.chunk.js.map": "/static/js/2.5bd12c96.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.939bfb6b.chunk.css.map": "/static/css/main.939bfb6b.chunk.css.map",
-    "static/js/2.5bd12c96.chunk.js.LICENSE.txt": "/static/js/2.5bd12c96.chunk.js.LICENSE.txt"
+    "main.css": "/GenerationGame/static/css/main.939bfb6b.chunk.css",
+    "main.js": "/GenerationGame/static/js/main.f9940594.chunk.js",
+    "main.js.map": "/GenerationGame/static/js/main.f9940594.chunk.js.map",
+    "runtime-main.js": "/GenerationGame/static/js/runtime-main.0d9ec327.js",
+    "runtime-main.js.map": "/GenerationGame/static/js/runtime-main.0d9ec327.js.map",
+    "static/js/2.5bd12c96.chunk.js": "/GenerationGame/static/js/2.5bd12c96.chunk.js",
+    "static/js/2.5bd12c96.chunk.js.map": "/GenerationGame/static/js/2.5bd12c96.chunk.js.map",
+    "index.html": "/GenerationGame/index.html",
+    "static/css/main.939bfb6b.chunk.css.map": "/GenerationGame/static/css/main.939bfb6b.chunk.css.map",
+    "static/js/2.5bd12c96.chunk.js.LICENSE.txt": "/GenerationGame/static/js/2.5bd12c96.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e482fe1.js",
+    "static/js/runtime-main.0d9ec327.js",
     "static/js/2.5bd12c96.chunk.js",
     "static/css/main.939bfb6b.chunk.css",
     "static/js/main.f9940594.chunk.js"
