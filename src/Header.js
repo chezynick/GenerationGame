@@ -1,9 +1,9 @@
-import React, {useContext} from "react";
-import {DatabaseContext} from './Database';
+import React from "react";
+
 
 
 const Header = () => {
-        const [Items, setItems] =useContext(DatabaseContext)
+  
   return (
     <div className="header">
       <h1>The Generation Game! </h1>
